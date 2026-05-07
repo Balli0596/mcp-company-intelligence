@@ -17,10 +17,10 @@ def home():
 # 🔹 DB Connection
 def get_connection():
     return pymysql.connect(
-        host='192.168.1.18',
+        host='...',
         user='appuser',
         password='1234',
-        database='taskmanagement',
+        database='',
         port=3306,
         cursorclass=DictCursor
     )

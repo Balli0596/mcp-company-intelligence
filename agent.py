@@ -2,7 +2,7 @@ import requests
 import json
 from tools import get_director_tool, get_client_tool,get_related_entity_party,get_comapny_tool
 from server import ToonSerializer
-SARVAM_API_KEY = "sk_8pfijv0p_jUjmazd6vK5b4GO5MqbplZSg"
+SARVAM_API_KEY = ""
 
 # 🔹 Sarvam endpoint (example)
 SARVAM_URL = "https://api.sarvam.ai/v1/chat/completions"
